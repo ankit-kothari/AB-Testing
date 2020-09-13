@@ -1,3 +1,5 @@
+# How to plan an AB Test?
+
 This is a theoretical article covering the different aspects of AB testing, for a complete working example, please refer to the following article.
 
 [Analyze an A/B test from the popular mobile puzzle game Cookie Cats]. 
