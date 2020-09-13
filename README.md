@@ -24,7 +24,8 @@ Other methods can be used to make the experiment more reliable. For example, the
 - **H0 (null hypothesis)**: status quo, we don't expect any change.  The null hypothesis usually states that there is **no difference** between treatment and control groups. (To put this another way, we’re saying our treatment outcome will be statistically similar to our control outcome )
 - **HA (alternative hypothesis):** The alternative hypothesis states that **there is a difference** between treatment and control groups. (In other words, the treatment outcome will be statistically different to the control outcome)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/258cfcf6-02c4-4219-ac84-b6ac04456fae/FB43C87D-FC14-4F57-B2EB-149DEF1B5233.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/258cfcf6-02c4-4219-ac84-b6ac04456fae/FB43C87D-FC14-4F57-B2EB-149DEF1B5233.jpeg)
+  
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/FB43C87D-FC14-4F57-B2EB-149DEF1B5233.jpeg" width="40%">
 
     Types of Hypotheis Test  
 
