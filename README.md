@@ -1,6 +1,8 @@
 This is a theoretical article covering the different aspects of AB testing, for a complete working example, please refer to the following article.
 
-[Analyze an A/B test from the popular mobile puzzle game Cookie Cats](https://www.notion.so/Analyze-an-A-B-test-from-the-popular-mobile-puzzle-game-Cookie-Cats-a95f614871c24be49fac208f660e9d7f)
+[Analyze an A/B test from the popular mobile puzzle game Cookie Cats]. 
+
+https://colab.research.google.com/drive/1hvqRno8u73yeU8pW_gDZ_cD5SMXU5u0v?usp=sharing
 
 ## Experiment Design
 
