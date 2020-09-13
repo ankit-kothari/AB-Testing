@@ -92,7 +92,7 @@ stat, p_value = mannwhitneyu(a_dist, b_dist, alternative="less")     #lower tail
 
 Higher the power better off we are in accepting the alternative hypothesis 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18954e36-b71d-42af-9c0f-0a0a63637134/4F78D489-6828-4925-A1FF-26FFD92289AF.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18954e36-b71d-42af-9c0f-0a0a63637134/4F78D489-6828-4925-A1FF-26FFD92289AF.jpeg)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/4F78D489-6828-4925-A1FF-26FFD92289AF.jpeg" width="40%">
 
 ### Metric Selection: How to evaluate the experiment?
 
@@ -161,8 +161,8 @@ Few examples. They will have to be calculated per metric.
 
 - **This type is applicable for all the categorical and binary metrics (Proportions)**
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a14afe2b-9a9f-455b-a713-e858878f1029/Screen_Shot_2020-08-16_at_12.20.38_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a14afe2b-9a9f-455b-a713-e858878f1029/Screen_Shot_2020-08-16_at_12.20.38_PM.png)
-
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_12.20.38_PM.png" width="40%">
+    
     **omega** here is the  minimum detectable change to make this experiment worth it. 
 
     **omega** is the minimum detectable change
@@ -186,7 +186,7 @@ print('Required sample size ~ {0:.1f}'.format(sample_size) + ' per group')
 
 - **This is used for continuous variable (Means)**
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/739950b3-777f-4172-8c23-49ff7cbb7a96/Screen_Shot_2020-08-16_at_12.25.59_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/739950b3-777f-4172-8c23-49ff7cbb7a96/Screen_Shot_2020-08-16_at_12.25.59_PM.png)
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_12.25.59_PM.png" width="40%">
 
 ```sql
 import statsmodels.stats.api as sms
@@ -205,7 +205,9 @@ print('Required sample size ~ {0:.1f}'.format(sample_size) + ' per group')
 - Minimum sample size (traffic volume) required.
 - effective size (worth to do the test if the metric increase/decrease how much)- minimum detectable difference
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77e31b9b-5915-4837-89f7-20f4b443c03f/effect.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/77e31b9b-5915-4837-89f7-20f4b443c03f/effect.png)
+    
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/effect.png" width="40%">
+    
 
     Sample Size vs Minimum Detectable Effective Size
 
@@ -261,11 +263,11 @@ The following sections on **"Data Distribution"** and "**Parametric and Non-Para
 • There are a fixed number of trials, and
 • The probability of success on each trial is constant.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddde2d92-c4d2-4bc4-82a9-c5c10775d86b/Screen_Shot_2020-08-16_at_12.42.09_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddde2d92-c4d2-4bc4-82a9-c5c10775d86b/Screen_Shot_2020-08-16_at_12.42.09_PM.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_12.42.09_PM.png" width="40%">
 
 **Probability Mass Function**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e546c08e-71e0-4253-86b8-65af81430a51/Screen_Shot_2020-08-16_at_12.38.15_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e546c08e-71e0-4253-86b8-65af81430a51/Screen_Shot_2020-08-16_at_12.38.15_PM.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_12.38.15_PM.png" width="40%">
 
 **p= rate of success**
 
@@ -296,7 +298,9 @@ plt.xlabel("Num converted"); plt.ylabel("Probability");
 plt.show()
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df8fcffa-1e4a-412c-b506-071cf255eeb6/binomial.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df8fcffa-1e4a-412c-b506-071cf255eeb6/binomial.png)
+
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/binomial.png" width="40%">
+
 
 Probability Mass Function for Group A and Group B with given success rate
 
@@ -328,6 +332,8 @@ Probability Mass Function for Group A and Group B with given success rate
 - When **population standard deviation** **is known** we can use the z-score
 
     ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e9ca878-e5d3-4cd7-9ac2-c1a73f3890b9/9EFFB6E2-024B-4DBB-B5DE-9065943FF75D.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e9ca878-e5d3-4cd7-9ac2-c1a73f3890b9/9EFFB6E2-024B-4DBB-B5DE-9065943FF75D.jpeg)
+    
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/9EFFB6E2-024B-4DBB-B5DE-9065943FF75D.jpeg" width="40%">
 
 - When **population standard deviation is unknown and we have sample greater  than 30 samples,** we use z-statistic for proportions only if we can assume the population is normally distributed, we use sample standard deviation in the formula, that can be proven by
 
