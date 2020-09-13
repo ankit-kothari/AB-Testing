@@ -25,7 +25,7 @@ Other methods can be used to make the experiment more reliable. For example, the
 - **HA (alternative hypothesis):** The alternative hypothesis states that **there is a difference** between treatment and control groups. (In other words, the treatment outcome will be statistically different to the control outcome)
 
   
-    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/FB43C87D-FC14-4F57-B2EB-149DEF1B5233.png" width="40%">
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/FB43C87D-FC14-4F57-B2EB-149DEF1B5233.jpeg" width="40%">
 
     Types of Hypotheis Test  
 
