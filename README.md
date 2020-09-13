@@ -331,9 +331,7 @@ Probability Mass Function for Group A and Group B with given success rate
 
 - When **population standard deviation** **is known** we can use the z-score
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e9ca878-e5d3-4cd7-9ac2-c1a73f3890b9/9EFFB6E2-024B-4DBB-B5DE-9065943FF75D.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e9ca878-e5d3-4cd7-9ac2-c1a73f3890b9/9EFFB6E2-024B-4DBB-B5DE-9065943FF75D.jpeg)
-    
-    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/9EFFB6E2-024B-4DBB-B5DE-9065943FF75D.jpeg" width="40%">
+     <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/9EFFB6E2-024B-4DBB-B5DE-9065943FF75D.jpeg" width="40%">
 
 - When **population standard deviation is unknown and we have sample greater  than 30 samples,** we use z-statistic for proportions only if we can assume the population is normally distributed, we use sample standard deviation in the formula, that can be proven by
 
