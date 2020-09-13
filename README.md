@@ -337,13 +337,16 @@ Probability Mass Function for Group A and Group B with given success rate
 
 - When **population standard deviation is unknown and we have sample greater  than 30 samples,** we use z-statistic for proportions only if we can assume the population is normally distributed, we use sample standard deviation in the formula, that can be proven by
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f241bdd-bbe8-48cb-8ea1-74e8a77c8944/67898C9F-77A8-4CA7-B993-73D0E8B21F36.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f241bdd-bbe8-48cb-8ea1-74e8a77c8944/67898C9F-77A8-4CA7-B993-73D0E8B21F36.jpeg)
+    
+     <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/67898C9F-77A8-4CA7-B993-73D0E8B21F36.jpeg" width="40%">
+
 
        
 
 - **z-test for comparing two proportions**
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc903e4b-3439-41cd-aaf4-d40cf40eb351/Screen_Shot_2020-08-18_at_10.37.00_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc903e4b-3439-41cd-aaf4-d40cf40eb351/Screen_Shot_2020-08-18_at_10.37.00_AM.png)
+   
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-18_at_10.37.00_AM.png" width="40%">
 
 ```sql
 from statsmodels.stats.proportion import proportions_ztest
@@ -361,7 +364,8 @@ print('zscore = {:.4f}, pvalue = {:.4f}'.format(zscore, pvalue))
 
 **Probability Density Function**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9fd7a01-0c17-494c-975a-1a6bf7bcdac8/Screen_Shot_2020-08-16_at_9.57.05_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f9fd7a01-0c17-494c-975a-1a6bf7bcdac8/Screen_Shot_2020-08-16_at_9.57.05_PM.png)
+
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_9.57.05_PM.png" width="40%">
 
 - It means how much probability is concentrated per unit length (d𝒙) near 𝒙, or how dense the probability is near 𝒙. x is any point on the x-axis and y is the ***P(x)***
 
@@ -372,16 +376,16 @@ The probability Density curve is not the same as the Probability of a function a
 - What does this really mean?
     - It means if we have a  set of data say between `1000` linearly spaced points between `(-4 to 4)` and we plot a graph for `mean =1,2,3`  and keeping sigma constant at `1`.
     - The observation is the graph moves to the right which actually means the **density is moving towards the mean.**
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f90d03a0-bd66-40cb-8370-4c35d425e15f/Screen_Shot_2020-08-19_at_2.04.23_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f90d03a0-bd66-40cb-8370-4c35d425e15f/Screen_Shot_2020-08-19_at_2.04.23_AM.png)
+    
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-19_at_2.04.23_AM.png" width="40%">
 
 **Probability Density Function with varying standard deviation**
 
 - What does this really mean?
     - It means if we have a  set of data say between `1000` linearly spaced points between `(-10 to 10)` and we plot a graph for constant `mean =0` and keeping varying the sigma between `[2,4,6]`.
     - The observation is the graph gets broader which means the **probability** **density is spreading out.**
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a4e3bff-eb56-450a-add1-46835c48b924/Screen_Shot_2020-08-19_at_1.58.49_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a4e3bff-eb56-450a-add1-46835c48b924/Screen_Shot_2020-08-19_at_1.58.49_AM.png)
+    
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-19_at_1.58.49_AM.png" width="40%">
 
 ### Student’s T-distribution
 
@@ -390,20 +394,23 @@ The probability Density curve is not the same as the Probability of a function a
 
 **Mean and Standard Deviation of t-distribution** 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/888d5c25-9294-4bb2-91a0-086fd4bfaf1c/Screen_Shot_2020-08-16_at_10.11.25_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/888d5c25-9294-4bb2-91a0-086fd4bfaf1c/Screen_Shot_2020-08-16_at_10.11.25_PM.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db07f1ca-194d-4749-913a-a8a08fed9164/Screen_Shot_2020-08-16_at_10.10.57_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db07f1ca-194d-4749-913a-a8a08fed9164/Screen_Shot_2020-08-16_at_10.10.57_PM.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_10.11.25_PM.png" width="40%">
+
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_10.10.57_PM.png" width="40%">
 
 **t-distribution function**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0b6e996-5b4f-452a-ae92-81e99496bb50/Screen_Shot_2020-08-16_at_10.11.15_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0b6e996-5b4f-452a-ae92-81e99496bb50/Screen_Shot_2020-08-16_at_10.11.15_PM.png)
+
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_10.11.15_PM.png" width="40%">
 
 **t-score**
 
 - When **population standard deviation is unknown and we have a sample greater than 30 samples**, we use t-statistic, we use sample standard deviation in the formula.
 - When **population standard deviation is unknown and we have sample size less  than 30 samples,** we use t-statistic only if we can assume the population is normally distributed,
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c78cf300-5762-4e72-aaa8-366c9a527f07/Screen_Shot_2020-08-16_at_10.11.31_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c78cf300-5762-4e72-aaa8-366c9a527f07/Screen_Shot_2020-08-16_at_10.11.31_PM.png)
+
+ <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_10.11.31_PM.png" width="40%">
 
 ### Chi-Square Distribution
 
@@ -414,19 +421,22 @@ The probability Density curve is not the same as the Probability of a function a
 **Mean and Standard Deviation of t-distribution**
 
 - The mean of the distribution is equal to the number of degrees of freedom:
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f6de2fb-4904-481b-a91d-9192d5696bf0/Screen_Shot_2020-08-16_at_11.30.37_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f6de2fb-4904-481b-a91d-9192d5696bf0/Screen_Shot_2020-08-16_at_11.30.37_PM.png)
+    
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_11.30.37_PM.png" width="40%">
 
 - The standard deviation is equal to the square root of two times the number of degrees of freedom:
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dddbea43-df6b-4ffd-941d-2ff1fe081934/Screen_Shot_2020-08-16_at_11.30.41_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dddbea43-df6b-4ffd-941d-2ff1fe081934/Screen_Shot_2020-08-16_at_11.30.41_PM.png)
+    
+     <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_11.30.41_PM.png" width="40%">
 
 **chi-square statistic**
 
 - *Oi is the number of times i-category occurred in a sample*
 - Ei is the assumption for the number of times i-category is should occur in a sample (expected frequency)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ac95e3b-f6c8-425c-a2c4-9c2af5362d6f/Screen_Shot_2020-08-16_at_11.33.19_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ac95e3b-f6c8-425c-a2c4-9c2af5362d6f/Screen_Shot_2020-08-16_at_11.33.19_PM.png)
+    
+    <img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_11.33.19_PM.png" width="40%">
+
 
     Example is well explained here in this article: [https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-4-non-parametric-tests-4db7b4b6a974](https://towardsdatascience.com/the-ultimate-guide-to-a-b-testing-part-4-non-parametric-tests-4db7b4b6a974)
 
@@ -434,9 +444,9 @@ The probability Density curve is not the same as the Probability of a function a
 
 k = degree of freedom
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecb0a8a3-a137-4daa-ac7b-63fe83c4b0a5/Screen_Shot_2020-08-16_at_11.35.38_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecb0a8a3-a137-4daa-ac7b-63fe83c4b0a5/Screen_Shot_2020-08-16_at_11.35.38_PM.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-16_at_11.35.38_PM.png" width="40%">
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6b889f2-8fe5-4093-9af4-861196fdbc8c/Screen_Shot_2020-08-20_at_5.33.06_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6b889f2-8fe5-4093-9af4-861196fdbc8c/Screen_Shot_2020-08-20_at_5.33.06_PM.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/Screen_Shot_2020-08-20_at_5.33.06_PM.png" width="40%">
 
 ## **Parametric Test**
 
@@ -502,9 +512,9 @@ print(f"Zscore is {zscore:0.2f}, p-value is {prob:0.3f} (two tailed), {prob/2:0.
 
 The following graphs shows how Welch test performs much better with **unequal sample sizes and variance**. the p-values in the left graph between 0-0.05, area of rejection is much higher where it should be only 5% based on alpha 0.05 hence it can lead to wrong results and inferences, where as welch test doesn't do that and much better suited for unuequal mean and variances. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80cabe2c-e80a-4d81-a6c1-45c112ff5f33/ttest.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80cabe2c-e80a-4d81-a6c1-45c112ff5f33/ttest.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/ttest.png" width="40%">
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7181eb9-62e0-41af-bef1-a66f0d0b616b/welch_test.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a7181eb9-62e0-41af-bef1-a66f0d0b616b/welch_test.png)
+<img src="https://github.com/ankit-kothari/data_science_journey/blob/master/github_images/welch_test.png" width="40%">
 
 - **ANOVA (F-statistic):** Similar to a T-test, ANOVA can tell you how significant the differences between groups are. While a t-test compares 2 groups, ANOVA test can do more than two groups.
     1. One-way ANOVA: It is used to compare the difference between the three or more samples/groups of a single independent variable.
